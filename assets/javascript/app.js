@@ -1,17 +1,20 @@
 $(document).ready(function(){
 
     //Initialize Firebase
-    var firebaseConfig = {
-        apiKey: "AIzaSyDsfjzOZIrOSHB5eIChVdd1aAxKtRHaEK4",
-        authDomain: "anewproject-7bdc3.firebaseapp.com",
-        databaseURL: "https://anewproject-7bdc3.firebaseio.com",
-        projectId: "anewproject-7bdc3",
-        storageBucket: "anewproject-7bdc3.appspot.com",
-        messagingSenderId: "167156706154",
-        appId: "1:167156706154:web:dc962d5bd3e732f7d65313"
-    };
-    // Initialize Firebase,  //Declaring a variable to store the database info.................
-    firebase.initializeApp(firebaseConfig);
+  
+        var firebaseConfig = {
+          apiKey: "AIzaSyDUTIJHjoKkiwWYt2A6Tiz6AFwNx9ze8DM",
+          authDomain: "anewproject-1b54d.firebaseapp.com",
+          databaseURL: "https://anewproject-1b54d.firebaseio.com",
+          projectId: "anewproject-1b54d",
+          storageBucket: "anewproject-1b54d.appspot.com",
+          messagingSenderId: "961920171791",
+          appId: "1:961920171791:web:fe70c929786dcebe7d087a",
+          measurementId: "G-MCGNF1ZJYN"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        //firebase.analytics();
     var database = firebase.database();
         //Initializing the variables .....................
         var trainName = "";
